@@ -51,7 +51,6 @@ pizzaJson.map((pizza, index) => {
                 modalQtd--
                 c('.pizzaInfo--qt').innerHTML = modalQtd
             
-                c('.pizzaInfo--actualPrice').innerHTML = `R$ ${modalQtd * pizzaJson[chave].price.toFixed(2)}`
             }
 
             
@@ -61,7 +60,7 @@ pizzaJson.map((pizza, index) => {
             modalQtd++
             c('.pizzaInfo--qt').innerHTML = modalQtd
         
-            c('.pizzaInfo--actualPrice').innerHTML = `R$ ${modalQtd * pizzaJson[chave].price.toFixed(2)}`
+    
         })
     })
 
